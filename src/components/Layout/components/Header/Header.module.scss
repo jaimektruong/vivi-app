@@ -1,0 +1,21 @@
+.wrapper {
+  height: var(--header-height);
+  width: 100%;
+  background-color: var(--primary);
+  justify-content: center;
+  display: flex;
+}
+
+.inner {
+  height: 100%;
+  width: var(--header-width);
+}
+
+.custom__text-white::after {
+  color: white !important;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
